@@ -1,3 +1,4 @@
+//Miguel Zaiter 2025-0928
 const express = require('express')
 const app = express()
 
@@ -47,6 +48,9 @@ app.get('/productos/:id', (req, res) => {
 // ============================================================
 
 // TODO: POST /productos - Crear nuevo producto
+//Miguel Zaiter Balbuena 2025-0928
+
+
 app.post('/productos',(req,res)=>{
 
     const {nombre,descripcion,precio}=req.body
